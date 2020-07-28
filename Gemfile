@@ -26,6 +26,9 @@ gem "jekyll-theme-hydejack", "~> 9.0"
 # If you're using the MathJax math engine instead, free to remove the line below:
 gem "kramdown-math-katex"
 
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+
 group :jekyll_plugins do
   gem "jekyll-default-layout", git: "https://github.com/benbalter/jekyll-default-layout"
   gem "jekyll-feed"

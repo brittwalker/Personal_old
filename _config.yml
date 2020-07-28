@@ -100,8 +100,8 @@ collections:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.0.3
 
 
 # Customizaton
@@ -329,6 +329,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-include-cache
 
 
 # SEO Tag
